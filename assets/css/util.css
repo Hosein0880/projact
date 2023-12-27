@@ -2432,7 +2432,8 @@
 */
 .bo-cir {border-radius: 50%;}
 
-.rounded_pill{border-radius: 5rem;}
+.rounded_pill{border-radius: 5rem;
+overflow: hidden;}
 
 .of-hidden {overflow: hidden;}
 

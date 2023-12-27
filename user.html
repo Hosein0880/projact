@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projact</title>
+    <title>User maneger</title>
     <link rel="stylesheet" href="./assets/materialize/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/util.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <!--nav section-----start-->
+
+    <!--nav section-----start-->
+
     <nav class="white z-depth-0 top-navbar">
         <div class="nav-wrapper">
-          <a href="#!" class="blue-text hide-on-med-and-up">Home</a>
+          <a href="#!" class="blue-text hide-on-med-and-up">User msnegment</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons blue-text hide-on-med-and-up">menu</i></a>
           <ul class="hide-on-small-and-down">
-            <li><a href="sass.html" class="blue-text ">Home</a></li>
-            <li><a href="badges.html" class="blue-text ">User maneger</a></li>
+            <li><a href="./index.html" class="blue-text ">Home</a></li>
+            <li><a href="./user.html" class="blue-text ">User maneger</a></li>
             <li><a href="collapsible.html" class="blue-text ">codeyad</a></li>
             <li><a href="mobile.html" class="blue-text ">Shop</a></li>
           </ul>
         </div>
       </nav>
       
-  <!--nav section-----end-->
+    <!--nav section-----end-->
+
       <ul class="sidenav" id="mobile-demo">
         <li>
           <div class="user-view">
@@ -43,15 +46,33 @@
         <li><a href="./index.html" class="waves-effect" href="#!">Home</a></li>
         <li><a href="./user.html" class="waves-effect" href="#!">User</a></li>
       </ul>
-  <!--logo section---start-->
-  <section class="flex-c-m flex-col sizefull p-l-20 p-r-10">
-    <img src="./assets/img/3-19.png" class="w-full max-w-200 filter_shadow">
-    <a href="https://digikala.com" class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 rounded_pill">codeyad</a>
-    <a href="./user.html" class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 rounded_pill">User maneger</a>
-  </section>  
 
+    <!--home section----->
 
-    <script src="./assets/materialize/js/materialize.min.js"></script>
-    <script src="./assets/js/main.js"></script>
-</body>
-</html>
+      <section id="top-action-section">
+
+    <!---add-butten-->
+
+        <div class="p-l-10 p-r-10 m-t-10">
+            <button class="waves-effect waves-light btn blue light-3 w-full p-l-30 p-r-30 flex-c rounded_pill">
+                <i class="material-icons m-r-5">add</i>
+                add User
+            </button>
+        </div>
+
+    <!---add--search-box-->
+
+    <div class="row">
+        <div class="input-field col s12">
+          <input id="disabled" type="text" class="validate">
+          <label for="disabled">
+            <i class="material-icons pos-relative top-7">search</i>
+            search
+          </label>
+        </div>
+      </section>
+
+      <script src="./assets/materialize/js/materialize.min.js"></script>
+      <script src="./assets/js/main.js"></script>
+  </body>
+  </html>
